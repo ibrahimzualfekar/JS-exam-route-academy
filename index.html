@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Yummy</title>
+    <link rel="icon" href="images/logo.png">
+    
+    <link rel="stylesheet" href="css/all.min.css" />
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/main.css" />
+
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400;800;900&family=Poppins&display=swap"/>
+  </head>
+
+  <body class=" bg-black">
+
+<!-- Start-Side-bar -->
+<div id="side-bar" class="d-flex justify-content-between position-fixed">
+  <div class="side-content d-flex flex-column justify-content-between  ">
+    <div>
+      <ul class="text-white list-unstyled p-5">
+        <li class="py-3 fs-6"> <a class="text-decoration-none text-white" href="">Search</a></li>
+        <li class="py-3 fs-6"> <a class="text-decoration-none text-white" href="">Categories</a></li>
+        <li class="py-3 fs-6"> <a class="text-decoration-none text-white" href="">Area</a></li>
+        <li class="py-3 fs-6"> <a class="text-decoration-none text-white" href="">Ingredients</a></li>
+        <li class="py-3 fs-6"> <a class="text-decoration-none text-white" href="">Contact Us</a></li>
+      </ul>
+    </div>
+    <div>
+      <div class="side-content-rights ">
+        <div class="side-content-rights-social p-2">
+          <a class="py-1 text-light text-decoration-none px-2" href="">
+            <i class="fa-brands fa-facebook-f"></i>
+          </a>
+          <a class="py-1 text-light text-decoration-none px-2" href="">
+            <i class="fa-brands fa-twitter"></i>
+          </a>
+          <a class="py-1 text-light text-decoration-none px-2" href="">
+            <i class="fa-solid fa-globe"></i>
+          </a>
+        </div>
+        <p class="text-white px-2 py-3 fs-6">
+          Copyright <span id="decodeA"></span>&copy; 2019 All Rights Reserved.</p>
+        </div>
+      </div>
+  </div>
+  <div class="side-border bg-light d-flex flex-column justify-content-between align-items-center p-2">
+    <div class="side-border-img py-2 ">
+      <img class="w-100" src="images/logo.png" alt="">
+    </div>
+    <div  class="side-border-switch">
+      <div id="open-close" class="text-dark " role="button" >
+        <i class="icon-switch switch-one fa-solid fa-xmark fa-lg"></i>
+        <i class="icon-switch switch-two fa-solid fa-bars"></i>
+      </div>
+    </div>
+    <div class="side-border-icons d-flex flex-column py-2">
+      <a class="py-1 text-dark" href="">
+        <i class="fa-solid fa-globe"></i>
+      </a>
+      <a class="py-1 text-dark" href="">
+        <i class="fa-solid fa-share-nodes"></i>
+      </a>
+    </div>
+  </div>
+</div>
+<!-- End-Side-bar -->
+
+
+<!-- Start-body-content -->
+<div id="body-content " >
+  <div class="container p-5">
+    <div id="main-meals" class="row p-5 g-3 ">
+    </div>
+  </div>
+</div>
+<!-- End-body-content -->
+
+
+
+
+
+
+
+    <script src="js/jquery-3.6.1.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/all.min.js"></script>
+    <script src="js/main.js"></script>
+  </body>
+</html>
